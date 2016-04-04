@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PrototipoMPU</string>
+    <string name="principais_denuncias">Principais Denúncias</string>
+    <string name="denuncia_viaduto_name">Local: Viaduto João Alves de Queiroz</string>
+    <string name="denuncia_viaduto_descricao">O viaduto deveria ter sido finalizado há 6 meses.</string>
+    <string name="denuncia_escola_name">Local: Colégio Estadual de Franco da Rocha</string>
+    <string name="denuncia_escola_descricao">Minha filha estuda no colégio Estadual de Franco da Rocha e desde Janeiro não recebe merenda alguma da Escola. As vezes lhe dão agua e bolachas.</string>
+    <string name="denuncia_centro_cultural_name">Local: Centro Cultural Casa de Vidro</string>
+    <string name="denuncia_centro_cultural_descricao">Começou a ser construída no em 2010 e tinha previsão para ser entregue no mesmo ano, tem apenas 7% do projeto inicial pronto, mas já danificado por conta do tempo. </string>
+
+</resources>
