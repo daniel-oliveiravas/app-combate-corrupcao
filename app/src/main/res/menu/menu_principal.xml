@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="br.com.prototipompu.MainActivity">
+    <item
+        android:id="@+id/pagina_inicial"
+        android:orderInCategory="1"
+        android:title="@string/pagina_inicial"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/principais_denuncias"
+        android:orderInCategory="2"
+        android:title="@string/principais_denuncias"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/minhas_denuncias"
+        android:orderInCategory="3"
+        android:title="@string/minhas_denuncias"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/nova_denuncia"
+        android:orderInCategory="4"
+        android:title="@string/nova_denuncia"
+        app:showAsAction="never" />
+</menu>

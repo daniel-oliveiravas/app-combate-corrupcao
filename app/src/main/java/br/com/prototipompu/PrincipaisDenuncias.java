@@ -1,17 +1,24 @@
 package br.com.prototipompu;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class MainActivity extends AppCompatActivity {
+public class PrincipaisDenuncias extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.pagina_inicial);
+        setContentView(R.layout.principais_denuncias);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+
+        if(toolbar != null) {
+            setSupportActionBar(toolbar);
+        }
+
     }
 
     @Override
@@ -29,11 +36,12 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.principais_denuncias) {
-            Intent intent = new Intent(MainActivity.this, PrincipaisDenuncias.class);
+        if (id == R.id.pagina_inicial) {
+            Intent intent = new Intent(PrincipaisDenuncias.this, MainActivity.class);
             startActivity(intent);
         }
 
         return super.onOptionsItemSelected(item);
     }
+
 }
